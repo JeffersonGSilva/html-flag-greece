@@ -1,0 +1,50 @@
+.flag {
+  background: linear-gradient(
+    to bottom,
+    #0d5eaf 11%,
+    white 11%,
+    white 22%,
+    #0d5eaf 11%,
+    22%,
+    #0d5eaf 11%,
+    33%,
+    white 33%,
+    white 44%,
+    #0d5eaf 44%,
+    #0d5eaf 55%,
+    white 55%,
+    white 66%,
+    #0d5eaf 66%,
+    #0d5eaf 77%,
+    white 77%,
+    white 88%,
+    #0d5eaf 88%,
+    #0d5eaf 100%
+  );
+  width: 900px;
+  height: 500px;
+  position: relative;
+}
+
+.flag > .flag-2 {
+  background-color: #0d5eaf;
+  width: 450px;
+  height: 275px;
+  position: absolute;
+}
+
+.vert-stripe {
+  background-color: white;
+  width: 55px;
+  height: 275px;
+  position: relative;
+  left: 197.5px;
+}
+
+.horiz-stripe {
+  background-color: white;
+  width: 450px;
+  height: 55px;
+  position: absolute;
+  top: 110px;
+}
